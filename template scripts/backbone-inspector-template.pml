@@ -77,7 +77,7 @@ for x in range({{ first_residue - 1 }},{{ last_residue }}):
   {% else %}
 
   # Residue zoom
-  cmd.zoom( "i. " + str(x) + "+" + str(x+1))
+  cmd.orient( "i. " + str(x) + "+" + str(x+1))
   {% endif %}
 
   cmd.mview("store")

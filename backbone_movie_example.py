@@ -5,7 +5,7 @@ with open("template scripts/backbone-inspector-template.pml", 'r') as template_f
 settings = {
  "movie_fps" : 45, # the frames per second
  "structure_pdb" : "4lzt", # PDB code, incompatible with structure_file
- "relative_lag": 1, # integer, set higher for slower movie
+ "relative_lag": 2, # integer, set higher for slower movie
  "backbone_only" : False, # Set to True to only display backboke
  "representation": "lines", # Display mode for all atoms
  "background_color": "white", # color for the background
