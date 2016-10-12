@@ -4,7 +4,7 @@ settings = {
  "structure_pdb" : "4lzt", # PDB code, incompatible with structure_file
  "relative_lag": 1, # integer, set higher for slower movie
  "structure_file" : "/home/bas/files/protein.pdb", # local file, incompatible with structure_pdb
- "backbone_only" : False, # Set to True to only display backboke
+ "backbone_only" : False, # Set to True to only display backbone
  "representation": "lines", # Display mode for all atoms
  "background_color": "white", # color for the background
  "carbon_color": "gray20", # color for all carbon atoms
