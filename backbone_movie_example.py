@@ -6,7 +6,7 @@ settings = {
  "movie_fps" : 45, # the frames per second
  "structure_pdb" : "4lzt", # PDB code, incompatible with structure_file
  "relative_lag": 2, # integer, set higher for slower movie
- "backbone_only" : False, # Set to True to only display backboke
+ "backbone_only" : False, # Set to True to only display backbone
  "representation": "lines", # Display mode for all atoms
  "background_color": "white", # color for the background
  "carbon_color": "gray20", # color for all carbon atoms
